@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18023E2C2443239E0049A0B7 /* StudentListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18023E2B2443239E0049A0B7 /* StudentListViewController.swift */; };
+		18023E2E244323B00049A0B7 /* StudentFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18023E2D244323B00049A0B7 /* StudentFormViewController.swift */; };
 		18CA5A4924408A110096EFF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CA5A4824408A110096EFF3 /* AppDelegate.swift */; };
 		18CA5A4B24408A110096EFF3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CA5A4A24408A110096EFF3 /* SceneDelegate.swift */; };
-		18CA5A4D24408A110096EFF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CA5A4C24408A110096EFF3 /* ViewController.swift */; };
+		18CA5A4D24408A110096EFF3 /* CollegeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CA5A4C24408A110096EFF3 /* CollegeListViewController.swift */; };
 		18CA5A5024408A110096EFF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CA5A4E24408A110096EFF3 /* Main.storyboard */; };
 		18CA5A5324408A110096EFF3 /* CollegeManagement.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18CA5A5124408A110096EFF3 /* CollegeManagement.xcdatamodeld */; };
 		18CA5A5524408A120096EFF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CA5A5424408A120096EFF3 /* Assets.xcassets */; };
 		18CA5A5824408A120096EFF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CA5A5624408A120096EFF3 /* LaunchScreen.storyboard */; };
 		18CA5A6324408A130096EFF3 /* CollegeManagementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CA5A6224408A130096EFF3 /* CollegeManagementTests.swift */; };
 		18CA5A6E24408A130096EFF3 /* CollegeManagementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CA5A6D24408A130096EFF3 /* CollegeManagementUITests.swift */; };
+		18CA5A7C24408C390096EFF3 /* CollegeFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CA5A7B24408C390096EFF3 /* CollegeFormViewController.swift */; };
+		18CA5A81244095AA0096EFF3 /* DataBaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CA5A80244095AA0096EFF3 /* DataBaseHelper.swift */; };
+		18CA5A852440A7B70096EFF3 /* CollegeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CA5A832440A7B70096EFF3 /* CollegeTableViewCell.swift */; };
+		18CA5A862440A7B70096EFF3 /* CollegeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CA5A842440A7B70096EFF3 /* CollegeTableViewCell.xib */; };
+		18CA5A8A2440DA690096EFF3 /* CollegeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CA5A892440DA690096EFF3 /* CollegeTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18023E2B2443239E0049A0B7 /* StudentListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentListViewController.swift; sourceTree = "<group>"; };
+		18023E2D244323B00049A0B7 /* StudentFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentFormViewController.swift; sourceTree = "<group>"; };
 		18CA5A4524408A110096EFF3 /* CollegeManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollegeManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18CA5A4824408A110096EFF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18CA5A4A24408A110096EFF3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		18CA5A4C24408A110096EFF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18CA5A4C24408A110096EFF3 /* CollegeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeListViewController.swift; sourceTree = "<group>"; };
 		18CA5A4F24408A110096EFF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18CA5A5224408A110096EFF3 /* CollegeManagement.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CollegeManagement.xcdatamodel; sourceTree = "<group>"; };
 		18CA5A5424408A120096EFF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +60,11 @@
 		18CA5A6924408A130096EFF3 /* CollegeManagementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollegeManagementUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18CA5A6D24408A130096EFF3 /* CollegeManagementUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeManagementUITests.swift; sourceTree = "<group>"; };
 		18CA5A6F24408A130096EFF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CA5A7B24408C390096EFF3 /* CollegeFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeFormViewController.swift; sourceTree = "<group>"; };
+		18CA5A80244095AA0096EFF3 /* DataBaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseHelper.swift; sourceTree = "<group>"; };
+		18CA5A832440A7B70096EFF3 /* CollegeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeTableViewCell.swift; sourceTree = "<group>"; };
+		18CA5A842440A7B70096EFF3 /* CollegeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollegeTableViewCell.xib; sourceTree = "<group>"; };
+		18CA5A892440DA690096EFF3 /* CollegeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +92,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18023E2A244323830049A0B7 /* Student */ = {
+			isa = PBXGroup;
+			children = (
+				18023E2B2443239E0049A0B7 /* StudentListViewController.swift */,
+				18023E2D244323B00049A0B7 /* StudentFormViewController.swift */,
+			);
+			path = Student;
+			sourceTree = "<group>";
+		};
 		18CA5A3C24408A110096EFF3 = {
 			isa = PBXGroup;
 			children = (
@@ -101,9 +124,11 @@
 		18CA5A4724408A110096EFF3 /* CollegeManagement */ = {
 			isa = PBXGroup;
 			children = (
+				18CA5A822440A75C0096EFF3 /* XibCell */,
+				18CA5A7E2440956C0096EFF3 /* DatabaseHelper */,
+				18CA5A7D244095660096EFF3 /* Controller */,
 				18CA5A4824408A110096EFF3 /* AppDelegate.swift */,
 				18CA5A4A24408A110096EFF3 /* SceneDelegate.swift */,
-				18CA5A4C24408A110096EFF3 /* ViewController.swift */,
 				18CA5A4E24408A110096EFF3 /* Main.storyboard */,
 				18CA5A5424408A120096EFF3 /* Assets.xcassets */,
 				18CA5A5624408A120096EFF3 /* LaunchScreen.storyboard */,
@@ -129,6 +154,42 @@
 				18CA5A6F24408A130096EFF3 /* Info.plist */,
 			);
 			path = CollegeManagementUITests;
+			sourceTree = "<group>";
+		};
+		18CA5A7D244095660096EFF3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18023E2A244323830049A0B7 /* Student */,
+				18CA5A7F244095790096EFF3 /* College */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18CA5A7E2440956C0096EFF3 /* DatabaseHelper */ = {
+			isa = PBXGroup;
+			children = (
+				18CA5A80244095AA0096EFF3 /* DataBaseHelper.swift */,
+			);
+			path = DatabaseHelper;
+			sourceTree = "<group>";
+		};
+		18CA5A7F244095790096EFF3 /* College */ = {
+			isa = PBXGroup;
+			children = (
+				18CA5A7B24408C390096EFF3 /* CollegeFormViewController.swift */,
+				18CA5A4C24408A110096EFF3 /* CollegeListViewController.swift */,
+				18CA5A892440DA690096EFF3 /* CollegeTableViewController.swift */,
+			);
+			path = College;
+			sourceTree = "<group>";
+		};
+		18CA5A822440A75C0096EFF3 /* XibCell */ = {
+			isa = PBXGroup;
+			children = (
+				18CA5A832440A7B70096EFF3 /* CollegeTableViewCell.swift */,
+				18CA5A842440A7B70096EFF3 /* CollegeTableViewCell.xib */,
+			);
+			path = XibCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +299,7 @@
 				18CA5A5824408A120096EFF3 /* LaunchScreen.storyboard in Resources */,
 				18CA5A5524408A120096EFF3 /* Assets.xcassets in Resources */,
 				18CA5A5024408A110096EFF3 /* Main.storyboard in Resources */,
+				18CA5A862440A7B70096EFF3 /* CollegeTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,10 +324,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18CA5A4D24408A110096EFF3 /* ViewController.swift in Sources */,
+				18CA5A4D24408A110096EFF3 /* CollegeListViewController.swift in Sources */,
+				18023E2C2443239E0049A0B7 /* StudentListViewController.swift in Sources */,
+				18023E2E244323B00049A0B7 /* StudentFormViewController.swift in Sources */,
 				18CA5A4924408A110096EFF3 /* AppDelegate.swift in Sources */,
+				18CA5A8A2440DA690096EFF3 /* CollegeTableViewController.swift in Sources */,
+				18CA5A852440A7B70096EFF3 /* CollegeTableViewCell.swift in Sources */,
 				18CA5A5324408A110096EFF3 /* CollegeManagement.xcdatamodeld in Sources */,
 				18CA5A4B24408A110096EFF3 /* SceneDelegate.swift in Sources */,
+				18CA5A81244095AA0096EFF3 /* DataBaseHelper.swift in Sources */,
+				18CA5A7C24408C390096EFF3 /* CollegeFormViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
